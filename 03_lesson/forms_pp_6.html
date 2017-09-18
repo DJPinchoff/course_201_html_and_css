@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Movie Review</title>
+  </head>
+  <body>
+    <form action="#" method="get">
+      <dl>
+        <dt>Movie</dt>
+        <dd>
+          <select name="movie" id="movie" size="4">
+            <option value="looper">Looper</option>
+            <option value="frozen">Frozen</option>
+            <option value="tommy_boy">Tommy Boy</option>
+            <option value="alien" selected>Alien</option>
+          </select>
+        </dd>
+        <dt>Rating</dt>
+        <dd>
+          <input type="range" min="1" max="5">
+        </dd>
+      </dl>
+      <div>
+        <label for="favorites">
+          <input type="checkbox" name="favorites" id="favorites" checked>Add to my favorites
+        </label>
+      </div>
+      <input type="submit" value="Rate movie">
+    </form>
+  </body>
+</html>
