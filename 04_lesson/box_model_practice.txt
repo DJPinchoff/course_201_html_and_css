@@ -1,0 +1,20 @@
+<a> is inline
+<blockquote> block
+<em> inline
+<form> block
+<img> inline
+<input> indeterminate
+<p> block
+<span> inline
+<textarea> indeterminate
+<ul> block
+
+
+2. b, c, f
+
+3. inline-block
+Vertical: 300 + 4 + 4 + 10 + 10 + 20 + 10 = 358
+Horizontal: 500 + 4 + 4 + 20 + 20 + 20 + 10 = 578
+
+4. 
+Vertical:
